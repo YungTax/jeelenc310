@@ -22,7 +22,7 @@ if( pls_get_option( 'header-store-location' ) != '' ) {
 		$pageURL = '#';
 	} ?>
 	<span class="pls-store-location">
-		<a class="store-location-icon-text" href="<?php echo esc_url( $pageURL );?>" target="_blank">
+		<a class="store-location-icon-text" href="https://maps.app.goo.gl/sVnBXWDGXXZdGdAU9" target="_blank">
 			<span class="pls-store-location-icon"></span>
 			<span><?php echo esc_html( pls_get_option( 'header-store-location', 'Find Store' ) );?></span>
 		</a>
