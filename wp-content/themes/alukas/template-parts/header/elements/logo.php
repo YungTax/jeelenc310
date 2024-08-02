@@ -14,9 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 		
-$logo_url 				= pls_get_option( 'header-logo', array( 'url' => PLS_IMAGES.'logo.svg' ) );
-$logo_light_url 		= pls_get_option( 'header-logo-light', array( 'url' => PLS_IMAGES.'logo-light.svg' ) );
-$mobile_logo_url		= pls_get_option( 'mobile-header-logo', array( 'url' => PLS_IMAGES.'logo.svg' ) );
+$logo_url 				= pls_get_option( 'header-logo', array( 'url' => PLS_IMAGES.'logo-1.svg' ) );
+$logo_light_url 		= pls_get_option( 'header-logo-light', array( 'url' => PLS_IMAGES.'logo-light-1.svg' ) );
+$mobile_logo_url		= pls_get_option( 'mobile-header-logo', array( 'url' => PLS_IMAGES.'logo-1.svg' ) );
 $site_title 			= get_bloginfo( 'name', 'display' );
 
 if( is_ssl() ) {
