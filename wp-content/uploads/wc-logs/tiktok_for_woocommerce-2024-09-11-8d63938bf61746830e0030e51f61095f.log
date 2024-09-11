@@ -1,0 +1,30 @@
+2024-09-11T03:23:04+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/store/update/
+
+{"business_platform":"WOO_COMMERCE","external_business_id":"tt4b_woocommerce_66ac9d8eb7771","net_gmv":[{"interval":"LIFETIME","max":0,"min":0,"unit":"CURRENCY"}],"net_order_count":[{"interval":"LIFETIME","max":0,"min":0,"unit":"COUNT"}],"tenure":{"min":0,"max":0,"unit":"DAYS"},"extra_data":"1.2.8"}
+ ajax: no
+2024-09-11T03:23:05+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 103
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 202409110323047E3CA7F322831539418A
+x-tt-trace-host: 01ba88a06601e8b7136fe354b8c3d714e68c6e64d07ae1dec1ab0250773937a28752b14edf7b02f1b4f85e6ac2b9a34976725805aeda48ef0c94eb1958a9e2ebc8f2e33b2f9af60bce88caca6e7ddb9b32e5997dbbf6e37d8019dd31e94d79138aa2d38b1babcef570c8449e239c8f632a
+x-tt-trace-id: 00-2409110323047E3CA7F322831539418A-201183FF13E5E1D2-00
+Server: TLB
+X-Origin-Response-Time: 7,23.54.124.7
+X-Akamai-Request-ID: ce867af.dfe2f8f
+Expires: Wed, 11 Sep 2024 03:23:05 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 11 Sep 2024 03:23:05 GMT
+X-Cache: TCP_MISS from a23-47-190-133.deploy.akamaitechnologies.com (AkamaiGHost/11.6.3-f27d542afa37241d2fddd9371d528b09) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-54-124-7.deploy.akamaitechnologies.com (AkamaiGHost/11.6.3-f27d542afa37241d2fddd9371d528b09) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=6, origin; dur=7
+Server-Timing: inner; dur=2
+X-Parent-Response-Time: 12,23.47.190.133
+
+{"code":40104,"message":"The access_token is empty.","request_id":"202409110323047E3CA7F322831539418A"}

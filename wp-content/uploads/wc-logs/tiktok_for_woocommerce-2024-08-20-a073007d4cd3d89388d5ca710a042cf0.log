@@ -1,0 +1,30 @@
+2024-08-20T02:53:44+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/store/update/
+
+{"business_platform":"WOO_COMMERCE","external_business_id":"tt4b_woocommerce_66ac9d8eb7771","net_gmv":[{"interval":"LIFETIME","max":0,"min":0,"unit":"CURRENCY"}],"net_order_count":[{"interval":"LIFETIME","max":0,"min":0,"unit":"COUNT"}],"tenure":{"min":0,"max":0,"unit":"DAYS"},"extra_data":"1.2.8"}
+ ajax: no
+2024-08-20T02:53:44+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 103
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 202408200253439746B455D62F610017D6
+x-tt-trace-host: 01ba88a06601e8b7136fe354b8c3d714e698d6fe05cccdb12eb15f3c5555163faf6014f8eb815ef72884c6efc8a4acd0d25cd608a2345ee11d7ad2b2e88c9d5cdaa0f6357cd5157e6e1ceb762119e4d8c8bbbf94473be098b9b789bba93e24e40352e40870f85593738a0b72bad9f06d63
+x-tt-trace-id: 00-2408200253439746B455D62F610017D6-193C29DE350AB91B-00
+Server: TLB
+X-Origin-Response-Time: 11,184.28.235.206
+X-Akamai-Request-ID: 51917cb.1ae3350f
+Expires: Tue, 20 Aug 2024 02:53:44 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 20 Aug 2024 02:53:44 GMT
+X-Cache: TCP_MISS from a23-59-80-148.deploy.akamaitechnologies.com (AkamaiGHost/11.6.1.1-b3c3a54be5e4c1363e4bf8ba73bb8135) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a184-28-235-206.deploy.akamaitechnologies.com (AkamaiGHost/11.6.1.1-b3c3a54be5e4c1363e4bf8ba73bb8135) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=11
+Server-Timing: inner; dur=6
+X-Parent-Response-Time: 15,23.59.80.148
+
+{"code":40104,"message":"The access_token is empty.","request_id":"202408200253439746B455D62F610017D6"}
