@@ -1001,6 +1001,9 @@ a:hover{
 	text-decoration:none;
 }
 
+/* Custom CSS */
+
+
 /**
  * 1.12 Font Icon
  */
@@ -4724,7 +4727,7 @@ body:not(.home, .single-product) .pls-page-title + .container {
 .pls-page-title .title {
 	font-weight: normal;
 	margin: 0;
-	line-height:1.2
+	line-height:2;
 }
 .pls-page-title .header-subtitle {
     margin-top: 0.75rem;
@@ -16407,3 +16410,4 @@ button.swal2-close {
 		width: 100%;	
 	}	
 }
+
