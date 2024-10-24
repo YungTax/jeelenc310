@@ -3462,7 +3462,7 @@ body:not(.home, .pls-catalog-page) .pls-site-header.pls-header-overlay:not(.head
 	.pls-header-logo .pls-logo,
 	.pls-header-logo .pls-logo-light,
 	.pls-header-logo .pls-mobile-logo {
-		max-width: 290px;
+		max-width: 290px !important;
 	}
 }
 
