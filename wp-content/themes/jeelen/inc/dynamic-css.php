@@ -379,7 +379,6 @@ if ( ! function_exists( 'pls_theme_style' ) ) :
 			
 			/* Site Header */
 			--pls-logo-width : '.pls_get_option('header-logo-width',360).'px;
-			--pls-mobile-logo-width : '.pls_get_option('mobile-header-logo-width',290).'px;
 			
 			/* Site Topbar */
 			--pls-topbar-text-color: '. pls_get_option('topbar-text-color','#ffffff') .';
