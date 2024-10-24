@@ -1225,6 +1225,7 @@ blockquote:before,
 .pls-testimonials.style-1 .testimonial-wrap:before,
 .format-quote .entry-quote:before {
 	content:"\e9af";
+	display: none;
 }
 .format-quote .entry-post .post-format:before, 
 .format-quote .entry-quote:after {
