@@ -8099,6 +8099,8 @@ form.woocommerce-ordering {
 	font-size: 17px;
 	font-weight: normal;
 	margin-bottom: 2px;
+	line-height: 2;
+	display: contents;
 }
 .products .pls-product-inner:hover .product-title a {
 	color: var(--pls-primary-color);
