@@ -3197,10 +3197,10 @@ div[class*="wpml-ls-legacy-dropdown"] a.wpml-ls-item-toggle:after,
 /* Header Main */
 .pls-header-logo .pls-logo,
 .pls-header-logo .pls-logo-light {
-	max-width: var(--pls-logo-width);
+	max-width: 360px;
 }
 .pls-header-logo .pls-mobile-logo {
-	max-width: var(--pls-mobile-logo-width);
+	max-width: 290px;
 }
 .pls-header-logo a {
     padding-top: 5px;
