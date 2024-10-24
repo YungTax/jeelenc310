@@ -378,8 +378,8 @@ if ( ! function_exists( 'pls_theme_style' ) ) :
 			--pls-promo-bar-button-bg-hover-color: '.$style_options['promo_bar']['button_background']['hover'].';
 			
 			/* Site Header */
-			--pls-logo-width : '.pls_get_option('header-logo-width',170).'px;
-			--pls-mobile-logo-width : '.pls_get_option('mobile-header-logo-width',148).'px;
+			--pls-logo-width : '.pls_get_option('header-logo-width',360).'px;
+			--pls-mobile-logo-width : '.pls_get_option('mobile-header-logo-width',290).'px;
 			
 			/* Site Topbar */
 			--pls-topbar-text-color: '. pls_get_option('topbar-text-color','#ffffff') .';
