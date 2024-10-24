@@ -3200,7 +3200,7 @@ div[class*="wpml-ls-legacy-dropdown"] a.wpml-ls-item-toggle:after,
 	max-width: 360px;
 }
 .pls-header-logo .pls-mobile-logo {
-	max-width: 290px;
+	max-width: 270px !important;
 }
 .pls-header-logo a {
     padding-top: 5px;
@@ -3462,7 +3462,7 @@ body:not(.home, .pls-catalog-page) .pls-site-header.pls-header-overlay:not(.head
 	.pls-header-logo .pls-logo,
 	.pls-header-logo .pls-logo-light,
 	.pls-header-logo .pls-mobile-logo {
-		max-width: 290px !important;
+		max-width: 270px !important;
 	}
 }
 
